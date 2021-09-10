@@ -11,13 +11,24 @@ body {
   /* выше для экранов больше 1600px отцентрировали весь контент */
 }
 
+.section {
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
 .list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/*.header {*/
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+  /*.header {*/
 /*  height: 100vh;*/
 /*  min-height: 600px;*/
 /*  max-height: 756px;*/
@@ -38,23 +49,24 @@ body {
 /*  margin-top: 80px;*/
 /*}*/
 
-/*div, p, li, h2, h3 {*/
+/*div, p, li, h2, h3, ul, a, svg {*/
 /*  border: 1px solid red;*/
 /*}*/
 
 .description {
-  margin: auto;
+  margin: 0 auto;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
-  margin: 100px auto;
+  margin: 0 auto;
   width: 80%;
 }
 
 .two-columns__brief {
   width: 175px;
+  color: #2f80ed;
 }
 
 .two-columns__brief_header {
@@ -116,10 +128,7 @@ body {
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
   width: 920px;
-  margin: 0 auto;
 }
 
 .cards__item {
@@ -142,6 +151,7 @@ body {
   line-height: 1.15;
   font-weight: 700;
   text-align: center;
+  margin: 0 auto 16px;
 }
 
 .cards__description {
@@ -149,8 +159,73 @@ body {
   line-height: 23px;
   font-weight: 400;
   text-align: center;
+  margin: 0;
 }
 
+/*digits*/
 
+.digits {
+  padding-bottom: 100px;
+}
 
+.table {
+  width: 1100px;
+  justify-content: space-between;
+}
 
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.table__text {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin: 0;
+}
+
+.table__text_source {
+  margin: 20px 0 0;
+}
+
+/*kaufman*/
+
+.kaufman {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 90px 0;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  margin-top: 0;
+}
+
+/*resources*/
+
+.resources {
+  padding-bottom: 217px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 0;
+}
+
+.resources__logo {
+  margin: 0 auto;
+  width: 270px;
+  height: 38px;
+}
