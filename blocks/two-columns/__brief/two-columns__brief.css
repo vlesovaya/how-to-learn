@@ -1,0 +1,12 @@
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+div, p, li, h2, h3, ul, a, svg {
+  border: 1px solid red;
+}

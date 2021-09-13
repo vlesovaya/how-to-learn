@@ -1,0 +1,10 @@
+.footer__column-link {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.footer__column-link:last-child {
+  margin-bottom: 0;
+}

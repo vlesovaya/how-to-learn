@@ -1,0 +1,5 @@
+.cards__item {
+  display: inline-block;
+  width: 240px;
+  box-sizing: border-box;
+}
