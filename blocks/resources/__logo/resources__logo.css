@@ -6,3 +6,6 @@
   text-align: center;
 }
 
+.resources__logo:hover {
+  opacity: 0.5;
+}
