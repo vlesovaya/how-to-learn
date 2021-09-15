@@ -2,3 +2,7 @@
   font-family: 'Inter', Arial, sans-serif;
 }
 
+section, div, ul, li, a {
+  border: 1px solid red;
+}
+
