@@ -1,6 +1,7 @@
 .kaufman {
   position: relative;
-  background: #1f1f1f url("/images/kaufman-triangle.svg") right -210px top no-repeat;
   padding: 90px 0;
+  background: #1f1f1f;
   overflow: hidden;
+  z-index: -10;
 }
