@@ -83,6 +83,7 @@
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__link-item/footer__link-item.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 
 
