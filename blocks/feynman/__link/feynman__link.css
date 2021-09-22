@@ -6,4 +6,11 @@
   font-size: 36px;
   line-height: 51px;
   font-weight: 400;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }

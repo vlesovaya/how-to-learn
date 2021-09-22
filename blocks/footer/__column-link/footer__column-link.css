@@ -1,7 +1,20 @@
 .footer__column-link {
+  display: flex;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 1s ease-in;
   margin-bottom: 10px;
+  order: 1;
 }
 
-.footer__column-link:last-of-type {
+.footer__column-link:last-child {
   margin-bottom: 0;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }

@@ -1,4 +1,4 @@
-.main-text {
+.two-columns__main-text {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
